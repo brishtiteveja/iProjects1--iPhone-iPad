@@ -1,0 +1,1603 @@
+TSnowMath
+v7
+r0
+t341848166.759305
+cCheck dependencies
+cProcessInfoPlistFile /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/Info.plist SnowMath-Info.plist
+cCompileXIB /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/SnowMath.app/snowBackground_1e.png ../../Resources/images/snowBackground_1e.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/snowBackground_2e.png ../../Resources/images/snowBackground_2e.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/playButton.png ../../Resources/images/playButton.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/helpButton.png ../../Resources/images/helpButton.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/snowMath_icon.png ../../Resources/images/snowMath_icon.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/snowBall.png ../../Resources/images/snowBall.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/snowBallf.png ../../Resources/images/snowBallf.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/numberTexture.png ../../Resources/images/numberTexture.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_0.png ../../Resources/images/button_0.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_1.png ../../Resources/images/button_1.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_3.png ../../Resources/images/button_3.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_4.png ../../Resources/images/button_4.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_5.png ../../Resources/images/button_5.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_6.png ../../Resources/images/button_6.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_7.png ../../Resources/images/button_7.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_8.png ../../Resources/images/button_8.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_9.png ../../Resources/images/button_9.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_equal.png button_equal.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_0t.png button_0t.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_0tt.png button_0tt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_1t.png button_1t.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_1tt.png button_1tt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_2t.png button_2t.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_2tt.png button_2tt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_3t.png button_3t.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_3tt.png button_3tt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_4t.png button_4t.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_4tt.png button_4tt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_5t.png button_5t.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_5tt.png button_5tt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_6t.png button_6t.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_6tt.png button_6tt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_7t.png button_7t.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_7tt.png button_7tt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_8t.png button_8t.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_8tt.png button_8tt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_9t.png button_9t.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_9tt.png button_9tt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/snowballf2.png snowballf2.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/snowballf3.png snowballf3.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_1ttt.png button_1ttt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_0ttt.png button_0ttt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_2ttt.png button_2ttt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_3ttt.png button_3ttt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_4ttt.png button_4ttt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_5ttt.png button_5ttt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_6ttt.png button_6ttt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_7ttt.png button_7ttt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_8ttt.png button_8ttt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/button_9ttt.png button_9ttt.png
+cCpResource build/Debug-iphonesimulator/SnowMath.app/fireworks-drake.mp3 fireworks-drake.mp3
+cProcessPCH++ /var/folders/HP/HP0jlL+9E5CrKDv0yNzZrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SnowMath_Prefix-etluzcfwuckpmufwblnsrwrltpsw/SnowMath_Prefix.pch.gch SnowMath_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/main.o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/main.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/SnowMathAppDelegate.o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowMathAppDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/graphicUtil.o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/graphicUtil.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/ES1Renderer.o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/ES1Renderer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/EAGLView.o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/EAGLView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/SnowBall.o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowBall.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/genNumOp.o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/genNumOp.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cLd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/SnowMath normal i386
+cGenerateDSYMFile /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app.dSYM /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/SnowMath
+cTouch /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC128840000000000000733
+t1287727236
+s1843
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC12308000000000000094F
+t1287725832
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC123080000000000000A61
+t1287725832
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC123080000000000009369
+t1287725832
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC123080000000000003C4A
+t1287725832
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC1230E0000000000019D40
+t1287725838
+s105792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_0.png
+c000000004D874A11000000000001661D
+t1300711953
+s91677
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_1.png
+c000000004D8748BC00000000000160EB
+t1300711612
+s90347
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_2.png
+c000000004D8748DC0000000000016F0D
+t1300711644
+s93965
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_3.png
+c000000004D8749130000000000017128
+t1300711699
+s94504
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_4.png
+c000000004D87492F0000000000016474
+t1300711727
+s91252
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_5.png
+c000000004D874942000000000001630D
+t1300711746
+s90893
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_6.png
+c000000004D8749600000000000016DFA
+t1300711776
+s93690
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_7.png
+c000000004D8749BC0000000000016369
+t1300711868
+s90985
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_8.png
+c000000004D8749D50000000000016E2F
+t1300711893
+s93743
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_9.png
+c000000004D8749FA0000000000016E85
+t1300711930
+s93829
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/helpButton.png
+c000000004D862E92000000000000271A
+t1300639378
+s10010
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/numberTexture.png
+c000000004D86B3E2000000000000897A
+t1300673506
+s35194
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/playButton.png
+c000000004D862EA70000000000002798
+t1300639399
+s10136
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/snowBackground_1e.png
+c000000004D8804DD000000000002D462
+t1300759773
+s185442
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/snowBackground_2e.png
+c000000004D8804E1000000000002D0C3
+t1300759777
+s184515
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/snowBall.png
+c000000004D83AFA20000000000013667
+t1300475810
+s79463
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/snowBallf.png
+c000000004D8643E800000000000164A9
+t1300644840
+s91305
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/snowMath_icon.png
+c000000004D863D1600000000000017BC
+t1300643094
+s6076
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/EAGLView.h
+c000000004EA8F9C900000000000007C9
+t1319696841
+s1993
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"ES1Renderer.h"
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/EAGLView.mm
+c000000004EAEAB2400000000000093A0
+t1320069924
+s37792
+i"EAGLView.h"
+i"ES1Renderer.h"
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/ES1Renderer.h
+c000000004EAFF6170000000000000622
+t1320154647
+s1570
+i"EAGLView.h"
+i"ESRenderer.h"
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<AVFoundation/AVFoundation.h>
+i"graphicUtil.h"
+i"SnowBall.h"
+i"genNumOp.h"
+i<cmath>
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/ES1Renderer.mm
+c000000004EAFF8D90000000000004445
+t1320155353
+s17477
+i"ES1Renderer.h"
+i"graphicUtil.h"
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/ESRenderer.h
+c000000004B20BB1200000000000000EA
+t1260436242
+s234
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowBall.h
+c000000004EAD65C200000000000002BD
+t1319986626
+s701
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowBall.mm
+c000000004EAD66D50000000000000565
+t1319986901
+s1381
+i"SnowBall.h"
+i"ES1Renderer.h"
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowMathAppDelegate.h
+c000000004D860C1600000000000001E4
+t1300630550
+s484
+i<UIKit/UIKit.h>
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowMathAppDelegate.mm
+c000000004D860E1E0000000000001018
+t1300631070
+s4120
+i"SnowMathAppDelegate.h"
+i"EAGLView.h"
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/genNumOp.h
+c000000004EAE8389000000000000024B
+t1320059785
+s587
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/genNumOp.mm
+c000000004EAEC2A000000000000002FE
+t1320075936
+s766
+i"genNumOp.h"
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/MainWindow.xib
+c000000004D860C310000000000005D3E
+t1300630577
+s23870
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/SnowMath_Prefix.pch
+c000000004D8368AD00000000000000B9
+t1300457645
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/airport_ambience_baggage_claim_carousel.mp3
+c000000004D66BC990000000000028C00
+t1298578585
+s166912
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app
+t1320155355
+s2006
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app.dSYM
+t1320155355
+s102
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/Info.plist
+t1320105336
+s639
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/MainWindow.nib
+t1320105337
+s1277
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/PkgInfo
+t1320105336
+s8
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/SnowMath
+t1320155355
+s96608
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/airport_ambience_baggage_claim_carousel.mp3
+t1320105338
+s166912
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_0.png
+t1320105336
+s91677
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_0t.png
+t1320105337
+s86448
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_0tt.png
+t1320105337
+s91987
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_0ttt.png
+t1320105337
+s248616
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_1.png
+t1320105337
+s90347
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_1t.png
+t1320105337
+s92701
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_1tt.png
+t1320105337
+s77900
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_1ttt.png
+t1320105337
+s271004
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_2.png
+t1319610220
+s93965
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_2t.png
+t1320105337
+s129378
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_2tt.png
+t1320105337
+s90958
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_2ttt.png
+t1320105337
+s252693
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_3.png
+t1320105337
+s94504
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_3t.png
+t1320105337
+s93174
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_3tt.png
+t1320105337
+s94225
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_3ttt.png
+t1320105337
+s253659
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_4.png
+t1320105337
+s91252
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_4t.png
+t1320105337
+s91541
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_4tt.png
+t1320105337
+s84998
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_4ttt.png
+t1320105337
+s253880
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_5.png
+t1320105337
+s90893
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_5t.png
+t1320105337
+s99412
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_5tt.png
+t1320105337
+s87176
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_5ttt.png
+t1320105337
+s250509
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_6.png
+t1320105337
+s93690
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_6t.png
+t1320105337
+s93410
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_6tt.png
+t1320105337
+s98896
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_6ttt.png
+t1320105337
+s246868
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_7.png
+t1320105337
+s90985
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_7t.png
+t1320105337
+s89974
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_7tt.png
+t1320105337
+s78333
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_7ttt.png
+t1320105337
+s264170
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_8.png
+t1320105337
+s93743
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_8t.png
+t1320105337
+s94570
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_8tt.png
+t1320105337
+s96655
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_8ttt.png
+t1320105338
+s244031
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_9.png
+t1320105337
+s93829
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_9t.png
+t1320105337
+s95860
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_9tt.png
+t1320105337
+s98234
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_9ttt.png
+t1320105338
+s245669
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/button_equal.png
+t1320105337
+s113017
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/fireworks-drake.mp3
+t1320154926
+s0
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/helpButton.png
+t1320105336
+s10010
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/numberTexture.png
+t1320105336
+s35194
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/playButton.png
+t1320105336
+s10136
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/snowBackground_1e.png
+t1320105336
+s185442
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/snowBackground_2e.png
+t1320105336
+s184515
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/snowBall.png
+t1320105336
+s79463
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/snowBallf.png
+t1320105336
+s91305
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/snowBallfc.png
+t1319620042
+s56950
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/snowMath_icon.png
+t1320105336
+s6076
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/snowball1.mov
+t1320072017
+s66211
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/snowballf2.png
+t1320105337
+s62781
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/snowballf3.png
+t1320105337
+s294615
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/snowballvanish.mov
+t1320072017
+s20395
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/snowfalling.caf
+t1320073837
+s526272
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/snowfalling.mov
+t1320072017
+s526272
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/snowing.mov
+t1320072017
+s41956
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/sound.caf
+t1320072549
+s75420
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/tap.aif
+t1320105338
+s22368
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/walkinginthesnow.mov
+t1320072017
+s107247
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/EAGLView.o
+t1320154650
+s118404
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/ES1Renderer.o
+t1320155355
+s79320
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/SnowBall.o
+t1320154649
+s8864
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/SnowMath.LinkFileList
+c000000004EAF3578000000000000040B
+t1320105336
+s1035
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/SnowMathAppDelegate.o
+t1320154648
+s55572
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/genNumOp.o
+t1320105340
+s7092
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/graphicUtil.o
+t1320105339
+s23044
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/main.o
+t1320105339
+s6564
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_0t.png
+c000000004EA7C84400000000000151B0
+t1319618628
+s86448
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_0tt.png
+c000000004EA7C85A0000000000016753
+t1319618650
+s91987
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_0ttt.png
+c000000004EA8D96B000000000003CB28
+t1319688555
+s248616
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_1t.png
+c000000004EA7C8790000000000016A1D
+t1319618681
+s92701
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_1tt.png
+c000000004EA7C89E000000000001304C
+t1319618718
+s77900
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_1ttt.png
+c000000004EA8D853000000000004229C
+t1319688275
+s271004
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_2t.png
+c000000004EA7C6B3000000000001F962
+t1319618227
+s129378
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_2tt.png
+c000000004EA7C6F8000000000001634E
+t1319618296
+s90958
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_2ttt.png
+c000000004EA8D8E6000000000003DB15
+t1319688422
+s252693
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_3t.png
+c000000004EA7C8C60000000000016BF6
+t1319618758
+s93174
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_3tt.png
+c000000004EA7C8D70000000000017011
+t1319618775
+s94225
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_3ttt.png
+c000000004EA8D902000000000003DEDB
+t1319688450
+s253659
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_4t.png
+c000000004EA7C8F40000000000016595
+t1319618804
+s91541
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_4tt.png
+c000000004EA7C90D0000000000014C06
+t1319618829
+s84998
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_4ttt.png
+c000000004EA8D987000000000003DFB8
+t1319688583
+s253880
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_5t.png
+c000000004EA7C9B30000000000018454
+t1319618995
+s99412
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_5tt.png
+c000000004EA7C9C70000000000015488
+t1319619015
+s87176
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_5ttt.png
+c000000004EA8D99F000000000003D28D
+t1319688607
+s250509
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_6t.png
+c000000004EA7C9820000000000016CE2
+t1319618946
+s93410
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_6tt.png
+c000000004EA7C9970000000000018250
+t1319618967
+s98896
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_6ttt.png
+c000000004EA8D9BD000000000003C454
+t1319688637
+s246868
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_7t.png
+c000000004EA7C9FA0000000000015F76
+t1319619066
+s89974
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_7tt.png
+c000000004EA7CA0B00000000000131FD
+t1319619083
+s78333
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_7ttt.png
+c000000004EA8D9D900000000000407EA
+t1319688665
+s264170
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_8t.png
+c000000004EA7CA27000000000001716A
+t1319619111
+s94570
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_8tt.png
+c000000004EA7CA45000000000001798F
+t1319619141
+s96655
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_8ttt.png
+c000000004EA8D9F1000000000003B93F
+t1319688689
+s244031
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_9t.png
+c000000004EA7CA670000000000017674
+t1319619175
+s95860
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_9tt.png
+c000000004EA7CA790000000000017FBA
+t1319619193
+s98234
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_9ttt.png
+c000000004EA8DA0A000000000003BFA5
+t1319688714
+s245669
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_equal.png
+c000000004E8BDAEE000000000001B979
+t1317788398
+s113017
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/fireworks-drake.mp3
+c000000004E50F39A0000000000000000
+t1313928090
+s0
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/graphicUtil.h
+c000000004E867E47000000000000063B
+t1317436999
+s1595
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/graphicUtil.mm
+c000000004EA5134400000000000027AE
+t1319441220
+s10158
+i"graphicUtil.h"
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/main.mm
+c000000004D8368AD000000000000016B
+t1300457645
+s363
+i<UIKit/UIKit.h>
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowBallfc.png
+c000000004EA7CD91000000000000DE76
+t1319619985
+s56950
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowball1.mov
+c000000004EAD611700000000000102A3
+t1319985431
+s66211
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowballf2.png
+c000000004EA7CF99000000000000F53D
+t1319620505
+s62781
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowballf3.png
+c000000004EA7DA000000000000047ED7
+t1319623168
+s294615
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowballvanish.mov
+c000000004EAD61810000000000004FAB
+t1319985537
+s20395
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowfalling.caf
+c000000004EAD60A700000000000807C0
+t1319985319
+s526272
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowfalling.mov
+c000000004EAD60A700000000000807C0
+t1319985319
+s526272
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowing.mov
+c000000004EAD62AA000000000000A3E4
+t1319985834
+s41956
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/sound.caf
+c000000004AB7CA1B000000000001269C
+t1253558811
+s75420
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/tap.aif
+c000000004C428A350000000000005760
+t1279429173
+s22368
+
+N/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/walkinginthesnow.mov
+c000000004EAD61FD000000000001A2EF
+t1319985661
+s107247
+
+N/var/folders/HP/HP0jlL+9E5CrKDv0yNzZrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SnowMath_Prefix-etluzcfwuckpmufwblnsrwrltpsw/SnowMath_Prefix.pch.gch
+t1320105339
+s16473168
+
+NSnowMath-Info.plist
+c000000004D8642A6000000000000039D
+t1300644518
+s925
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies341848166#341848166#0(0"0(0#1#0"8608398976#0"0#
+
+CCompileC build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/EAGLView.o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/EAGLView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s341847448.920152
+e341847450.054623
+r1
+xCompileC
+xbuild/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/EAGLView.o
+x/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/EAGLView.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/EAGLView.mm341847448#341847450#0(0"0(0#0#76"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/EAGLView.mm8602763008#2170"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-generated-files.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-own-target-headers.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-all-target-headers.hmap -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-project-headers.hmap -F/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/include -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources/i386 -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources -include /var/folders/HP/HP0jlL+9E5CrKDv0yNzZrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SnowMath_Prefix-etluzcfwuckpmufwblnsrwrltpsw/SnowMath_Prefix.pch -c /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/EAGLView.mm -o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/EAGLView.o0#
+
+CCompileC build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/ES1Renderer.o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/ES1Renderer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s341848154.845596
+e341848155.193608
+r1
+xCompileC
+xbuild/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/ES1Renderer.o
+x/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/ES1Renderer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/ES1Renderer.mm341848154#341848155#0(0"0(0#0#79"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/ES1Renderer.mm8608887104#2176"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-generated-files.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-own-target-headers.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-all-target-headers.hmap -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-project-headers.hmap -F/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/include -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources/i386 -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources -include /var/folders/HP/HP0jlL+9E5CrKDv0yNzZrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SnowMath_Prefix-etluzcfwuckpmufwblnsrwrltpsw/SnowMath_Prefix.pch -c /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/ES1Renderer.mm -o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/ES1Renderer.o0#
+
+CCompileC build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/SnowBall.o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowBall.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s341847449.381944
+e341847449.749191
+r1
+xCompileC
+xbuild/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/SnowBall.o
+x/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowBall.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowBall.mm341847449#341847449#0(0"0(0#0#76"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowBall.mm8604226176#2170"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-generated-files.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-own-target-headers.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-all-target-headers.hmap -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-project-headers.hmap -F/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/include -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources/i386 -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources -include /var/folders/HP/HP0jlL+9E5CrKDv0yNzZrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SnowMath_Prefix-etluzcfwuckpmufwblnsrwrltpsw/SnowMath_Prefix.pch -c /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowBall.mm -o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/SnowBall.o0#
+
+CCompileC build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/SnowMathAppDelegate.o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowMathAppDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s341847448.251593
+e341847448.920037
+r1
+xCompileC
+xbuild/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/SnowMathAppDelegate.o
+x/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowMathAppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowMathAppDelegate.mm341847448#341847448#0(0"0(0#0#87"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowMathAppDelegate.mm8605909792#2192"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-generated-files.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-own-target-headers.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-all-target-headers.hmap -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-project-headers.hmap -F/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/include -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources/i386 -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources -include /var/folders/HP/HP0jlL+9E5CrKDv0yNzZrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SnowMath_Prefix-etluzcfwuckpmufwblnsrwrltpsw/SnowMath_Prefix.pch -c /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/SnowMathAppDelegate.mm -o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/SnowMathAppDelegate.o0#
+
+CCompileC build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/genNumOp.o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/genNumOp.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s341798140.275736
+e341798140.321433
+r1
+xCompileC
+xbuild/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/genNumOp.o
+x/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/genNumOp.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/genNumOp.mm341798140#341798140#0(0"0(0#0#76"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/genNumOp.mm8600252960#2170"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-generated-files.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-own-target-headers.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-all-target-headers.hmap -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-project-headers.hmap -F/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/include -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources/i386 -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources -include /var/folders/HP/HP0jlL+9E5CrKDv0yNzZrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SnowMath_Prefix-etluzcfwuckpmufwblnsrwrltpsw/SnowMath_Prefix.pch -c /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/Classes/genNumOp.mm -o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/genNumOp.o0#
+
+CCompileC build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/graphicUtil.o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/graphicUtil.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s341798139.716489
+e341798139.833544
+r1
+xCompileC
+xbuild/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/graphicUtil.o
+x/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/graphicUtil.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/graphicUtil.mm341798139#341798139#0(0"0(0#0#71"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/graphicUtil.mm8606657984#2168"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-generated-files.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-own-target-headers.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-all-target-headers.hmap -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-project-headers.hmap -F/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/include -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources/i386 -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources -include /var/folders/HP/HP0jlL+9E5CrKDv0yNzZrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SnowMath_Prefix-etluzcfwuckpmufwblnsrwrltpsw/SnowMath_Prefix.pch -c /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/graphicUtil.mm -o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/graphicUtil.o0#
+
+CCompileC build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/main.o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/main.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s341798139.659451
+e341798139.716387
+r1
+xCompileC
+xbuild/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/main.o
+x/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/main.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/main.mm341798139#341798139#0(0"0(0#0#64"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/main.mm8608641728#2154"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-generated-files.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-own-target-headers.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-all-target-headers.hmap -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-project-headers.hmap -F/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/include -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources/i386 -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources -include /var/folders/HP/HP0jlL+9E5CrKDv0yNzZrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SnowMath_Prefix-etluzcfwuckpmufwblnsrwrltpsw/SnowMath_Prefix.pch -c /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/main.mm -o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/MainWindow.xib
+s341798136.853282
+e341798138.107355
+r1
+xCompileXIB
+x/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib341798136#341798138#0(0"0(0#0#71"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/MainWindow.xib8608252352#625"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/MainWindow.nib /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/airport_ambience_baggage_claim_carousel.mp3 airport_ambience_baggage_claim_carousel.mp3
+s341798138.111678
+e341798138.336234
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/airport_ambience_baggage_claim_carousel.mp3
+xairport_ambience_baggage_claim_carousel.mp3
+lSLF07#2@48"Copy airport_ambience_baggage_claim_carousel.mp3341798138#341798138#0(0"0(0#0#100"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/airport_ambience_baggage_claim_carousel.mp38601071008#556"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/airport_ambience_baggage_claim_carousel.mp3 /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_0.png ../../Resources/images/button_0.png
+s341798136.859943
+e341798137.089476
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_0.png
+x../../Resources/images/button_0.png
+lSLF07#2@40"Copy ../../Resources/images/button_0.png341798136#341798137#0(0"0(0#0#92"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_0.png8603465024#548"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_0.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_0t.png button_0t.png
+s341798137.102336
+e341798137.245316
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_0t.png
+xbutton_0t.png
+lSLF07#2@18"Copy button_0t.png341798137#341798137#0(0"0(0#0#70"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_0t.png8605879552#526"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_0t.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_0tt.png button_0tt.png
+s341798137.103322
+e341798137.254952
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_0tt.png
+xbutton_0tt.png
+lSLF07#2@19"Copy button_0tt.png341798137#341798137#0(0"0(0#0#71"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_0tt.png8604569824#527"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_0tt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_0ttt.png button_0ttt.png
+s341798137.438951
+e341798138.105835
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_0ttt.png
+xbutton_0ttt.png
+lSLF07#2@20"Copy button_0ttt.png341798137#341798138#0(0"0(0#0#72"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_0ttt.png8605745920#528"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_0ttt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_1.png ../../Resources/images/button_1.png
+s341798136.949682
+e341798137.102140
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_1.png
+x../../Resources/images/button_1.png
+lSLF07#2@40"Copy ../../Resources/images/button_1.png341798136#341798137#0(0"0(0#0#92"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_1.png8602992320#548"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_1.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_1t.png button_1t.png
+s341798137.126646
+e341798137.262384
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_1t.png
+xbutton_1t.png
+lSLF07#2@18"Copy button_1t.png341798137#341798137#0(0"0(0#0#70"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_1t.png8604342784#526"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_1t.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_1tt.png button_1tt.png
+s341798137.128131
+e341798137.254823
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_1tt.png
+xbutton_1tt.png
+lSLF07#2@19"Copy button_1tt.png341798137#341798137#0(0"0(0#0#71"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_1tt.png8604000352#527"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_1tt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_1ttt.png button_1ttt.png
+s341798137.438082
+e341798138.214511
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_1ttt.png
+xbutton_1ttt.png
+lSLF07#2@20"Copy button_1ttt.png341798137#341798138#0(0"0(0#0#72"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_1ttt.png8605851488#528"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_1ttt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_2.png ../../Resources/images/button_2.png
+s341303020.362031
+e341303020.387968
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_2.png
+x../../Resources/images/button_2.png
+lSLF07#2@40"Copy ../../Resources/images/button_2.png341303020#341303020#0(0"0(0#0#92"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_2.png8603954304#548"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_2.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_2t.png button_2t.png
+s341798137.176534
+e341798137.255062
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_2t.png
+xbutton_2t.png
+lSLF07#2@18"Copy button_2t.png341798137#341798137#0(0"0(0#0#70"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_2t.png8601026080#526"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_2t.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_2tt.png button_2tt.png
+s341798137.240035
+e341798137.270386
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_2tt.png
+xbutton_2tt.png
+lSLF07#2@19"Copy button_2tt.png341798137#341798137#0(0"0(0#0#71"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_2tt.png8609041088#527"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_2tt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_2ttt.png button_2ttt.png
+s341798137.521845
+e341798138.112922
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_2ttt.png
+xbutton_2ttt.png
+lSLF07#2@20"Copy button_2ttt.png341798137#341798138#0(0"0(0#0#72"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_2ttt.png8609053824#528"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_2ttt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_3.png ../../Resources/images/button_3.png
+s341798136.951850
+e341798137.102264
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_3.png
+x../../Resources/images/button_3.png
+lSLF07#2@40"Copy ../../Resources/images/button_3.png341798136#341798137#0(0"0(0#0#92"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_3.png8605733824#548"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_3.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_3t.png button_3t.png
+s341798137.241182
+e341798137.269112
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_3t.png
+xbutton_3t.png
+lSLF07#2@18"Copy button_3t.png341798137#341798137#0(0"0(0#0#70"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_3t.png8608933760#526"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_3t.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_3tt.png button_3tt.png
+s341798137.245407
+e341798137.274203
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_3tt.png
+xbutton_3tt.png
+lSLF07#2@19"Copy button_3tt.png341798137#341798137#0(0"0(0#0#71"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_3tt.png8608724128#527"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_3tt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_3ttt.png button_3ttt.png
+s341798137.523553
+e341798138.111590
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_3ttt.png
+xbutton_3ttt.png
+lSLF07#2@20"Copy button_3ttt.png341798137#341798138#0(0"0(0#0#72"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_3ttt.png8608917152#528"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_3ttt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_4.png ../../Resources/images/button_4.png
+s341798136.956821
+e341798137.089024
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_4.png
+x../../Resources/images/button_4.png
+lSLF07#2@40"Copy ../../Resources/images/button_4.png341798136#341798137#0(0"0(0#0#92"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_4.png8598396736#548"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_4.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_4t.png button_4t.png
+s341798137.247762
+e341798137.274325
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_4t.png
+xbutton_4t.png
+lSLF07#2@18"Copy button_4t.png341798137#341798137#0(0"0(0#0#70"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_4t.png8608588544#526"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_4t.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_4tt.png button_4tt.png
+s341798137.255133
+e341798137.338004
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_4tt.png
+xbutton_4tt.png
+lSLF07#2@19"Copy button_4tt.png341798137#341798137#0(0"0(0#0#71"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_4tt.png8608456064#527"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_4tt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_4ttt.png button_4ttt.png
+s341798137.528006
+e341798138.113950
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_4ttt.png
+xbutton_4ttt.png
+lSLF07#2@20"Copy button_4ttt.png341798137#341798138#0(0"0(0#0#72"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_4ttt.png8608713248#528"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_4ttt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_5.png ../../Resources/images/button_5.png
+s341798137.047095
+e341798137.089369
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_5.png
+x../../Resources/images/button_5.png
+lSLF07#2@40"Copy ../../Resources/images/button_5.png341798137#341798137#0(0"0(0#0#92"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_5.png8608868704#548"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_5.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_5t.png button_5t.png
+s341798137.256661
+e341798137.408390
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_5t.png
+xbutton_5t.png
+lSLF07#2@18"Copy button_5t.png341798137#341798137#0(0"0(0#0#70"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_5t.png8608383488#526"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_5t.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_5tt.png button_5tt.png
+s341798137.261395
+e341798137.339224
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_5tt.png
+xbutton_5tt.png
+lSLF07#2@19"Copy button_5tt.png341798137#341798137#0(0"0(0#0#71"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_5tt.png8608293280#527"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_5tt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_5ttt.png button_5ttt.png
+s341798137.530004
+e341798138.114063
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_5ttt.png
+xbutton_5ttt.png
+lSLF07#2@20"Copy button_5ttt.png341798137#341798138#0(0"0(0#0#72"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_5ttt.png8608492000#528"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_5ttt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_6.png ../../Resources/images/button_6.png
+s341798137.083427
+e341798137.176444
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_6.png
+x../../Resources/images/button_6.png
+lSLF07#2@40"Copy ../../Resources/images/button_6.png341798137#341798137#0(0"0(0#0#92"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_6.png8607911712#548"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_6.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_6t.png button_6t.png
+s341798137.262457
+e341798137.415760
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_6t.png
+xbutton_6t.png
+lSLF07#2@18"Copy button_6t.png341798137#341798137#0(0"0(0#0#70"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_6t.png8608183104#526"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_6t.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_6tt.png button_6tt.png
+s341798137.266863
+e341798137.535631
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_6tt.png
+xbutton_6tt.png
+lSLF07#2@19"Copy button_6tt.png341798137#341798137#0(0"0(0#0#71"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_6tt.png8608113632#527"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_6tt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_6ttt.png button_6ttt.png
+s341798137.535719
+e341798138.208392
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_6ttt.png
+xbutton_6ttt.png
+lSLF07#2@20"Copy button_6ttt.png341798137#341798138#0(0"0(0#0#72"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_6ttt.png8608194336#528"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_6ttt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_7.png ../../Resources/images/button_7.png
+s341798137.090014
+e341798137.241113
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_7.png
+x../../Resources/images/button_7.png
+lSLF07#2@40"Copy ../../Resources/images/button_7.png341798137#341798137#0(0"0(0#0#92"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_7.png8606652384#548"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_7.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_7t.png button_7t.png
+s341798137.269200
+e341798137.438887
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_7t.png
+xbutton_7t.png
+lSLF07#2@18"Copy button_7t.png341798137#341798137#0(0"0(0#0#70"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_7t.png8608072128#526"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_7t.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_7tt.png button_7tt.png
+s341798137.270460
+e341798137.437974
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_7tt.png
+xbutton_7tt.png
+lSLF07#2@19"Copy button_7tt.png341798137#341798137#0(0"0(0#0#71"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_7tt.png8607947232#527"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_7tt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_7ttt.png button_7ttt.png
+s341798137.538377
+e341798138.211201
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_7ttt.png
+xbutton_7ttt.png
+lSLF07#2@20"Copy button_7ttt.png341798137#341798138#0(0"0(0#0#72"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_7ttt.png8608117312#528"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_7ttt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_8.png ../../Resources/images/button_8.png
+s341798137.090957
+e341798137.239939
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_8.png
+x../../Resources/images/button_8.png
+lSLF07#2@40"Copy ../../Resources/images/button_8.png341798137#341798137#0(0"0(0#0#92"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_8.png8606460576#548"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_8.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_8t.png button_8t.png
+s341798137.274400
+e341798137.521715
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_8t.png
+xbutton_8t.png
+lSLF07#2@18"Copy button_8t.png341798137#341798137#0(0"0(0#0#70"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_8t.png8607858016#526"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_8t.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_8tt.png button_8tt.png
+s341798137.280361
+e341798137.523433
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_8tt.png
+xbutton_8tt.png
+lSLF07#2@19"Copy button_8tt.png341798137#341798137#0(0"0(0#0#71"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_8tt.png8606662496#527"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_8tt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_8ttt.png button_8ttt.png
+s341798138.105963
+e341798138.378085
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_8ttt.png
+xbutton_8ttt.png
+lSLF07#2@20"Copy button_8ttt.png341798138#341798138#0(0"0(0#0#72"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_8ttt.png8603767424#528"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_8ttt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_9.png ../../Resources/images/button_9.png
+s341798137.096120
+e341798137.247676
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_9.png
+x../../Resources/images/button_9.png
+lSLF07#2@40"Copy ../../Resources/images/button_9.png341798137#341798137#0(0"0(0#0#92"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_9.png8606212096#548"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/button_9.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_9t.png button_9t.png
+s341798137.338119
+e341798137.523119
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_9t.png
+xbutton_9t.png
+lSLF07#2@18"Copy button_9t.png341798137#341798137#0(0"0(0#0#70"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_9t.png8606299456#526"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_9t.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_9tt.png button_9tt.png
+s341798137.339312
+e341798137.523298
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_9tt.png
+xbutton_9tt.png
+lSLF07#2@19"Copy button_9tt.png341798137#341798137#0(0"0(0#0#71"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_9tt.png8606185696#527"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_9tt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_9ttt.png button_9ttt.png
+s341798138.107428
+e341798138.377746
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_9ttt.png
+xbutton_9ttt.png
+lSLF07#2@20"Copy button_9ttt.png341798138#341798138#0(0"0(0#0#72"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_9ttt.png8602804384#528"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_9ttt.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/button_equal.png button_equal.png
+s341798137.097308
+e341798137.266780
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/button_equal.png
+xbutton_equal.png
+lSLF07#2@21"Copy button_equal.png341798137#341798137#0(0"0(0#0#73"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_equal.png8606085216#529"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/button_equal.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/fireworks-drake.mp3 fireworks-drake.mp3
+s341847726.625761
+e341847726.652930
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/fireworks-drake.mp3
+xfireworks-drake.mp3
+lSLF07#2@24"Copy fireworks-drake.mp3341847726#341847726#0(0"0(0#0#76"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/fireworks-drake.mp312948295612891232#532"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/fireworks-drake.mp3 /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/helpButton.png ../../Resources/images/helpButton.png
+s341798136.856406
+e341798136.951612
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/helpButton.png
+x../../Resources/images/helpButton.png
+lSLF07#2@42"Copy ../../Resources/images/helpButton.png341798136#341798137#0(0"0(0#0#94"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/helpButton.png8607825248#550"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/helpButton.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/numberTexture.png ../../Resources/images/numberTexture.png
+s341798136.859243
+e341798137.047004
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/numberTexture.png
+x../../Resources/images/numberTexture.png
+lSLF07#2@45"Copy ../../Resources/images/numberTexture.png341798136#341798137#0(0"0(0#0#97"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/numberTexture.png8604429888#553"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/numberTexture.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/playButton.png ../../Resources/images/playButton.png
+s341798136.855694
+e341798136.949576
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/playButton.png
+x../../Resources/images/playButton.png
+lSLF07#2@42"Copy ../../Resources/images/playButton.png341798136#341798137#0(0"0(0#0#94"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/playButton.png8607946944#550"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/playButton.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/snowBackground_1e.png ../../Resources/images/snowBackground_1e.png
+s341798136.854230
+e341798137.126554
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/snowBackground_1e.png
+x../../Resources/images/snowBackground_1e.png
+lSLF07#2@49"Copy ../../Resources/images/snowBackground_1e.png341798136#341798137#0(0"0(0#0#101"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/snowBackground_1e.png8608178112#557"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/snowBackground_1e.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/snowBackground_2e.png ../../Resources/images/snowBackground_2e.png
+s341798136.854981
+e341798137.128054
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/snowBackground_2e.png
+x../../Resources/images/snowBackground_2e.png
+lSLF07#2@49"Copy ../../Resources/images/snowBackground_2e.png341798136#341798137#0(0"0(0#0#101"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/snowBackground_2e.png8608070176#557"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/snowBackground_2e.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/snowBall.png ../../Resources/images/snowBall.png
+s341798136.857824
+e341798137.089250
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/snowBall.png
+x../../Resources/images/snowBall.png
+lSLF07#2@40"Copy ../../Resources/images/snowBall.png341798136#341798137#0(0"0(0#0#92"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/snowBall.png8606331136#548"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/snowBall.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/snowBallf.png ../../Resources/images/snowBallf.png
+s341798136.858543
+e341798137.083325
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/snowBallf.png
+x../../Resources/images/snowBallf.png
+lSLF07#2@41"Copy ../../Resources/images/snowBallf.png341798136#341798137#0(0"0(0#0#93"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/snowBallf.png8605942432#549"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/snowBallf.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/snowBallfc.png snowBallfc.png
+s341312842.323721
+e341312842.384516
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/snowBallfc.png
+xsnowBallfc.png
+lSLF07#2@19"Copy snowBallfc.png341312842#341312842#0(0"0(0#0#71"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowBallfc.png8617288064#527"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowBallfc.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/snowMath_icon.png ../../Resources/images/snowMath_icon.png
+s341798136.857116
+e341798136.951762
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/snowMath_icon.png
+x../../Resources/images/snowMath_icon.png
+lSLF07#2@45"Copy ../../Resources/images/snowMath_icon.png341798136#341798137#0(0"0(0#0#97"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/snowMath_icon.png8606589952#553"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/../../Resources/images/snowMath_icon.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/snowball1.mov snowball1.mov
+s341764816.938493
+e341764817.044549
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/snowball1.mov
+xsnowball1.mov
+lSLF07#2@18"Copy snowball1.mov341764816#341764817#0(0"0(0#0#70"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowball1.mov12948295612891232#526"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowball1.mov /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/snowballf2.png snowballf2.png
+s341798137.408866
+e341798137.538265
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/snowballf2.png
+xsnowballf2.png
+lSLF07#2@19"Copy snowballf2.png341798137#341798137#0(0"0(0#0#71"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowballf2.png8606149472#527"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowballf2.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/snowballf3.png snowballf3.png
+s341798137.415878
+e341798138.184970
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/snowballf3.png
+xsnowballf3.png
+lSLF07#2@19"Copy snowballf3.png341798137#341798138#0(0"0(0#0#71"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowballf3.png8606050176#527"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowballf3.png /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/snowballvanish.mov snowballvanish.mov
+s341764816.940804
+e341764817.034197
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/snowballvanish.mov
+xsnowballvanish.mov
+lSLF07#2@23"Copy snowballvanish.mov341764816#341764817#0(0"0(0#0#75"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowballvanish.mov8619123808#531"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowballvanish.mov /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/snowfalling.caf snowfalling.caf
+s341766637.657978
+e341766637.670596
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/snowfalling.caf
+xsnowfalling.caf
+lSLF07#2@20"Copy snowfalling.caf341766637#341766637#0(0"0(0#0#72"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowfalling.caf8600908608#528"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowfalling.caf /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/snowfalling.mov snowfalling.mov
+s341764816.942669
+e341764817.051064
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/snowfalling.mov
+xsnowfalling.mov
+lSLF07#2@20"Copy snowfalling.mov341764816#341764817#0(0"0(0#0#72"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowfalling.mov8619096480#528"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowfalling.mov /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/snowing.mov snowing.mov
+s341764816.945368
+e341764817.044737
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/snowing.mov
+xsnowing.mov
+lSLF07#2@16"Copy snowing.mov341764816#341764817#0(0"0(0#0#68"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowing.mov8619057024#524"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/snowing.mov /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/sound.caf sound.caf
+s341765349.017101
+e341765349.029672
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/sound.caf
+xsound.caf
+lSLF07#2@14"Copy sound.caf341765349#341765349#0(0"0(0#0#66"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/sound.caf8619982688#522"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/sound.caf /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/tap.aif tap.aif
+s341798138.112999
+e341798138.118491
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/tap.aif
+xtap.aif
+lSLF07#2@12"Copy tap.aif341798138#341798138#0(0"0(0#0#64"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/tap.aif8598015296#520"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/tap.aif /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CCpResource build/Debug-iphonesimulator/SnowMath.app/walkinginthesnow.mov walkinginthesnow.mov
+s341764816.949304
+e341764817.048586
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SnowMath.app/walkinginthesnow.mov
+xwalkinginthesnow.mov
+lSLF07#2@25"Copy walkinginthesnow.mov341764816#341764817#0(0"0(0#0#77"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/walkinginthesnow.mov8619007552#533"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/walkinginthesnow.mov /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+
+CGenerateDSYMFile /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app.dSYM /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/SnowMath
+s341848155.242090
+e341848155.269097
+r1
+xGenerateDSYMFile
+x/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app.dSYM
+x/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/SnowMath
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/SnowMath.app.dSYM build/Debug-iphonesimulator/SnowMath.app/SnowMath341848155#341848155#0(0"0(0#0#106"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/SnowMath8608045696#440"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/SnowMath -o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app.dSYM0#
+
+CLd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/SnowMath normal i386
+s341848155.193696
+e341848155.241351
+r1
+xLd
+x/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/SnowMath
+xnormal
+xi386
+lSLF07#2@111"Link /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/SnowMath341848155#341848155#0(0"0(0#0#0"8608306048#1061"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator -F/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator -filelist /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/Objects-normal/i386/SnowMath.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AVFoundation -o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/SnowMath0#
+
+CProcessInfoPlistFile /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/Info.plist SnowMath-Info.plist
+s341798136.802159
+e341798136.853163
+r1
+xProcessInfoPlistFile
+x/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/Info.plist
+xSnowMath-Info.plist
+lSLF07#2@27"Process SnowMath-Info.plist341798136#341798136#0(148"warning: 'CFBundleSignature' is 'MAC', which can't be converted to a four-character code in MacRoman encoding (as needed for PkgInfo); using '????'1(22@138"'CFBundleSignature' is 'MAC', which can't be converted to a four-character code in MacRoman encoding (as needed for PkgInfo); using '????'341798136#18446744073709551615#0#0(6@0"341798136#0#0#0#0#0"0(0#0#76"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/SnowMath-Info.plist8608683200#536"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SnowMath-Info.plist -genpkginfo /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app/Info.plist0#
+
+CProcessPCH++ /var/folders/HP/HP0jlL+9E5CrKDv0yNzZrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SnowMath_Prefix-etluzcfwuckpmufwblnsrwrltpsw/SnowMath_Prefix.pch.gch SnowMath_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s341798138.378203
+e341798139.659331
+r1
+xProcessPCH++
+x/var/folders/HP/HP0jlL+9E5CrKDv0yNzZrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SnowMath_Prefix-etluzcfwuckpmufwblnsrwrltpsw/SnowMath_Prefix.pch.gch
+xSnowMath_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile SnowMath_Prefix.pch341798138#341798139#0(0"0(0#0#76"/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/SnowMath_Prefix.pch8609096896#2026"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-generated-files.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-own-target-headers.hmap -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-all-target-headers.hmap -iquote /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/SnowMath-project-headers.hmap -F/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/include -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources/i386 -I/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/SnowMath.build/Debug-iphonesimulator/SnowMath.build/DerivedSources -c /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/SnowMath_Prefix.pch -o /var/folders/HP/HP0jlL+9E5CrKDv0yNzZrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SnowMath_Prefix-etluzcfwuckpmufwblnsrwrltpsw/SnowMath_Prefix.pch.gch0#
+
+CTouch /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app
+s341848155.269182
+e341848155.274708
+r1
+xTouch
+x/Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app
+lSLF07#2@103"Touch /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app341848155#341848155#0(0"0(0#0#0"8607928832#315"    cd /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zehadyzbdullahkhan/Documents/iphone-ipad/SnowMath/build/Debug-iphonesimulator/SnowMath.app0#
+

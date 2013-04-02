@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SnowMathAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SnowMathAppDelegate.mm */; };
+		1D60589B0D05DD56006BFB54 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.mm */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		F617ADC51436217700970DD4 /* SnowBall.mm in Sources */ = {isa = PBXBuildFile; fileRef = F617ADC41436217700970DD4 /* SnowBall.mm */; };
+		F64AF96714949C1C005F69DC /* snowBackground_1e.png in Resources */ = {isa = PBXBuildFile; fileRef = F64AF96514949C1C005F69DC /* snowBackground_1e.png */; };
+		F64AF96814949C1C005F69DC /* snowBackground_2e.png in Resources */ = {isa = PBXBuildFile; fileRef = F64AF96614949C1C005F69DC /* snowBackground_2e.png */; };
+		F653462B14602DB100E2E56B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F653462A14602DB100E2E56B /* AVFoundation.framework */; };
+		F65F76A8145802CE00E3E39E /* button_0t.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F7694145802CE00E3E39E /* button_0t.png */; };
+		F65F76A9145802CE00E3E39E /* button_0tt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F7695145802CE00E3E39E /* button_0tt.png */; };
+		F65F76AA145802CE00E3E39E /* button_1t.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F7696145802CE00E3E39E /* button_1t.png */; };
+		F65F76AB145802CE00E3E39E /* button_1tt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F7697145802CE00E3E39E /* button_1tt.png */; };
+		F65F76AC145802CE00E3E39E /* button_2t.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F7698145802CE00E3E39E /* button_2t.png */; };
+		F65F76AD145802CE00E3E39E /* button_2tt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F7699145802CE00E3E39E /* button_2tt.png */; };
+		F65F76AE145802CE00E3E39E /* button_3t.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F769A145802CE00E3E39E /* button_3t.png */; };
+		F65F76AF145802CE00E3E39E /* button_3tt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F769B145802CE00E3E39E /* button_3tt.png */; };
+		F65F76B0145802CE00E3E39E /* button_4t.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F769C145802CE00E3E39E /* button_4t.png */; };
+		F65F76B1145802CE00E3E39E /* button_4tt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F769D145802CE00E3E39E /* button_4tt.png */; };
+		F65F76B2145802CE00E3E39E /* button_5t.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F769E145802CE00E3E39E /* button_5t.png */; };
+		F65F76B3145802CE00E3E39E /* button_5tt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F769F145802CE00E3E39E /* button_5tt.png */; };
+		F65F76B4145802CE00E3E39E /* button_6t.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F76A0145802CE00E3E39E /* button_6t.png */; };
+		F65F76B5145802CE00E3E39E /* button_6tt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F76A1145802CE00E3E39E /* button_6tt.png */; };
+		F65F76B6145802CE00E3E39E /* button_7t.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F76A2145802CE00E3E39E /* button_7t.png */; };
+		F65F76B7145802CE00E3E39E /* button_7tt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F76A3145802CE00E3E39E /* button_7tt.png */; };
+		F65F76B8145802CE00E3E39E /* button_8t.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F76A4145802CE00E3E39E /* button_8t.png */; };
+		F65F76B9145802CE00E3E39E /* button_8tt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F76A5145802CE00E3E39E /* button_8tt.png */; };
+		F65F76BA145802CE00E3E39E /* button_9t.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F76A6145802CE00E3E39E /* button_9t.png */; };
+		F65F76BB145802CE00E3E39E /* button_9tt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F76A7145802CE00E3E39E /* button_9tt.png */; };
+		F65F76D91458074400E3E39E /* snowballf2.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F76D81458074400E3E39E /* snowballf2.png */; };
+		F65F77701458119E00E3E39E /* snowballf3.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F776F1458119E00E3E39E /* snowballf3.png */; };
+		F65F788914590FE500E3E39E /* button_1ttt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F788814590FE500E3E39E /* button_1ttt.png */; };
+		F65F789F145911B100E3E39E /* button_0ttt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F7896145911B100E3E39E /* button_0ttt.png */; };
+		F65F78A0145911B100E3E39E /* button_2ttt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F7897145911B100E3E39E /* button_2ttt.png */; };
+		F65F78A1145911B100E3E39E /* button_3ttt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F7898145911B100E3E39E /* button_3ttt.png */; };
+		F65F78A2145911B100E3E39E /* button_4ttt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F7899145911B100E3E39E /* button_4ttt.png */; };
+		F65F78A3145911B100E3E39E /* button_5ttt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F789A145911B100E3E39E /* button_5ttt.png */; };
+		F65F78A4145911B100E3E39E /* button_6ttt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F789B145911B100E3E39E /* button_6ttt.png */; };
+		F65F78A5145911B100E3E39E /* button_7ttt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F789C145911B100E3E39E /* button_7ttt.png */; };
+		F65F78A6145911B100E3E39E /* button_8ttt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F789D145911B100E3E39E /* button_8ttt.png */; };
+		F65F78A7145911B100E3E39E /* button_9ttt.png in Resources */ = {isa = PBXBuildFile; fileRef = F65F789E145911B100E3E39E /* button_9ttt.png */; };
+		F664886B1336EB7F009BE6B4 /* numberTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = F664886A1336EB7F009BE6B4 /* numberTexture.png */; };
+		F6648C03133781D8009BE6B4 /* button_0.png in Resources */ = {isa = PBXBuildFile; fileRef = F6648BF9133781D8009BE6B4 /* button_0.png */; };
+		F6648C04133781D8009BE6B4 /* button_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F6648BFA133781D8009BE6B4 /* button_1.png */; };
+		F6648C06133781D8009BE6B4 /* button_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F6648BFC133781D8009BE6B4 /* button_3.png */; };
+		F6648C07133781D8009BE6B4 /* button_4.png in Resources */ = {isa = PBXBuildFile; fileRef = F6648BFD133781D8009BE6B4 /* button_4.png */; };
+		F6648C08133781D8009BE6B4 /* button_5.png in Resources */ = {isa = PBXBuildFile; fileRef = F6648BFE133781D8009BE6B4 /* button_5.png */; };
+		F6648C09133781D8009BE6B4 /* button_6.png in Resources */ = {isa = PBXBuildFile; fileRef = F6648BFF133781D8009BE6B4 /* button_6.png */; };
+		F6648C0A133781D8009BE6B4 /* button_7.png in Resources */ = {isa = PBXBuildFile; fileRef = F6648C00133781D8009BE6B4 /* button_7.png */; };
+		F6648C0B133781D8009BE6B4 /* button_8.png in Resources */ = {isa = PBXBuildFile; fileRef = F6648C01133781D8009BE6B4 /* button_8.png */; };
+		F6648C0C133781D8009BE6B4 /* button_9.png in Resources */ = {isa = PBXBuildFile; fileRef = F6648C02133781D8009BE6B4 /* button_9.png */; };
+		F66ACBD61495B0CF00DAB789 /* button_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F66ACBD51495B0CF00DAB789 /* button_2.png */; };
+		F66AFBFC14610E3200445C2B /* ABstudio.png in Resources */ = {isa = PBXBuildFile; fileRef = F66AFBFB14610E3200445C2B /* ABstudio.png */; };
+		F66AFC6C14611B5100445C2B /* ABStudio-white.png in Resources */ = {isa = PBXBuildFile; fileRef = F66AFC6B14611B5100445C2B /* ABStudio-white.png */; };
+		F66AFCA51461205000445C2B /* wind-chime-long.wav in Resources */ = {isa = PBXBuildFile; fileRef = F66AFCA41461205000445C2B /* wind-chime-long.wav */; };
+		F66AFCAE146120B600445C2B /* wind-chime-short.wav in Resources */ = {isa = PBXBuildFile; fileRef = F66AFCAD146120B600445C2B /* wind-chime-short.wav */; };
+		F66AFCB71461229200445C2B /* dream-harp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F66AFCB61461229200445C2B /* dream-harp.wav */; };
+		F66AFD2D14612BA000445C2B /* ABStudio-red.png in Resources */ = {isa = PBXBuildFile; fileRef = F66AFD2C14612BA000445C2B /* ABStudio-red.png */; };
+		F66AFD671461304900445C2B /* ABStudio-vivid.png in Resources */ = {isa = PBXBuildFile; fileRef = F66AFD661461304900445C2B /* ABStudio-vivid.png */; };
+		F6844E3D1333A1DD0010E582 /* graphicUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6844E3C1333A1DD0010E582 /* graphicUtil.mm */; };
+		F6844E4B1333A20E0010E582 /* ES1Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6844E471333A20E0010E582 /* ES1Renderer.mm */; };
+		F6844E4C1333A20E0010E582 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6844E4A1333A20E0010E582 /* EAGLView.mm */; };
+		F6844E4F1333A2290010E582 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6844E4E1333A2290010E582 /* OpenGLES.framework */; };
+		F6844E531333A2370010E582 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6844E521333A2370010E582 /* QuartzCore.framework */; };
+		F69E78BC143C12AA00AB987D /* button_equal.png in Resources */ = {isa = PBXBuildFile; fileRef = F69E78BB143C12AA00AB987D /* button_equal.png */; };
+		F6B610CF1336666700778AD1 /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F6B610CE1336666700778AD1 /* playButton.png */; };
+		F6B610D11336666D00778AD1 /* helpButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F6B610D01336666D00778AD1 /* helpButton.png */; };
+		F6B61171133674B800778AD1 /* snowMath_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6B61170133674B800778AD1 /* snowMath_icon.png */; };
+		F6B6117913367A1F00778AD1 /* snowBall.png in Resources */ = {isa = PBXBuildFile; fileRef = F6B6117813367A1F00778AD1 /* snowBall.png */; };
+		F6B6117F13367B7F00778AD1 /* snowBallf.png in Resources */ = {isa = PBXBuildFile; fileRef = F6B6117E13367B7F00778AD1 /* snowBallf.png */; };
+		F6C02E801436B73300FCFC19 /* genNumOp.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6C02E7F1436B73300FCFC19 /* genNumOp.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SnowMathAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowMathAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SnowMathAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SnowMathAppDelegate.mm; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SnowMathGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowMathGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SnowMathGL_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowMathGL_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SnowMathGL-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SnowMathGL-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F617ADC31436217700970DD4 /* SnowBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowBall.h; sourceTree = "<group>"; };
+		F617ADC41436217700970DD4 /* SnowBall.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SnowBall.mm; sourceTree = "<group>"; };
+		F64AF96514949C1C005F69DC /* snowBackground_1e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowBackground_1e.png; sourceTree = "<group>"; };
+		F64AF96614949C1C005F69DC /* snowBackground_2e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowBackground_2e.png; sourceTree = "<group>"; };
+		F653462A14602DB100E2E56B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F65F7694145802CE00E3E39E /* button_0t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_0t.png; sourceTree = "<group>"; };
+		F65F7695145802CE00E3E39E /* button_0tt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_0tt.png; sourceTree = "<group>"; };
+		F65F7696145802CE00E3E39E /* button_1t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_1t.png; sourceTree = "<group>"; };
+		F65F7697145802CE00E3E39E /* button_1tt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_1tt.png; sourceTree = "<group>"; };
+		F65F7698145802CE00E3E39E /* button_2t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_2t.png; sourceTree = "<group>"; };
+		F65F7699145802CE00E3E39E /* button_2tt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_2tt.png; sourceTree = "<group>"; };
+		F65F769A145802CE00E3E39E /* button_3t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_3t.png; sourceTree = "<group>"; };
+		F65F769B145802CE00E3E39E /* button_3tt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_3tt.png; sourceTree = "<group>"; };
+		F65F769C145802CE00E3E39E /* button_4t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_4t.png; sourceTree = "<group>"; };
+		F65F769D145802CE00E3E39E /* button_4tt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_4tt.png; sourceTree = "<group>"; };
+		F65F769E145802CE00E3E39E /* button_5t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_5t.png; sourceTree = "<group>"; };
+		F65F769F145802CE00E3E39E /* button_5tt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_5tt.png; sourceTree = "<group>"; };
+		F65F76A0145802CE00E3E39E /* button_6t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_6t.png; sourceTree = "<group>"; };
+		F65F76A1145802CE00E3E39E /* button_6tt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_6tt.png; sourceTree = "<group>"; };
+		F65F76A2145802CE00E3E39E /* button_7t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_7t.png; sourceTree = "<group>"; };
+		F65F76A3145802CE00E3E39E /* button_7tt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_7tt.png; sourceTree = "<group>"; };
+		F65F76A4145802CE00E3E39E /* button_8t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_8t.png; sourceTree = "<group>"; };
+		F65F76A5145802CE00E3E39E /* button_8tt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_8tt.png; sourceTree = "<group>"; };
+		F65F76A6145802CE00E3E39E /* button_9t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_9t.png; sourceTree = "<group>"; };
+		F65F76A7145802CE00E3E39E /* button_9tt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_9tt.png; sourceTree = "<group>"; };
+		F65F76D81458074400E3E39E /* snowballf2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowballf2.png; sourceTree = "<group>"; };
+		F65F776F1458119E00E3E39E /* snowballf3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowballf3.png; sourceTree = "<group>"; };
+		F65F788814590FE500E3E39E /* button_1ttt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_1ttt.png; sourceTree = "<group>"; };
+		F65F7896145911B100E3E39E /* button_0ttt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_0ttt.png; sourceTree = "<group>"; };
+		F65F7897145911B100E3E39E /* button_2ttt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_2ttt.png; sourceTree = "<group>"; };
+		F65F7898145911B100E3E39E /* button_3ttt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_3ttt.png; sourceTree = "<group>"; };
+		F65F7899145911B100E3E39E /* button_4ttt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_4ttt.png; sourceTree = "<group>"; };
+		F65F789A145911B100E3E39E /* button_5ttt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_5ttt.png; sourceTree = "<group>"; };
+		F65F789B145911B100E3E39E /* button_6ttt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_6ttt.png; sourceTree = "<group>"; };
+		F65F789C145911B100E3E39E /* button_7ttt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_7ttt.png; sourceTree = "<group>"; };
+		F65F789D145911B100E3E39E /* button_8ttt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_8ttt.png; sourceTree = "<group>"; };
+		F65F789E145911B100E3E39E /* button_9ttt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_9ttt.png; sourceTree = "<group>"; };
+		F664886A1336EB7F009BE6B4 /* numberTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = numberTexture.png; path = ../../Resources/images/numberTexture.png; sourceTree = SOURCE_ROOT; };
+		F6648BF9133781D8009BE6B4 /* button_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_0.png; path = ../../Resources/images/button_0.png; sourceTree = SOURCE_ROOT; };
+		F6648BFA133781D8009BE6B4 /* button_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_1.png; path = ../../Resources/images/button_1.png; sourceTree = SOURCE_ROOT; };
+		F6648BFC133781D8009BE6B4 /* button_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_3.png; path = ../../Resources/images/button_3.png; sourceTree = SOURCE_ROOT; };
+		F6648BFD133781D8009BE6B4 /* button_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_4.png; path = ../../Resources/images/button_4.png; sourceTree = SOURCE_ROOT; };
+		F6648BFE133781D8009BE6B4 /* button_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_5.png; path = ../../Resources/images/button_5.png; sourceTree = SOURCE_ROOT; };
+		F6648BFF133781D8009BE6B4 /* button_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_6.png; path = ../../Resources/images/button_6.png; sourceTree = SOURCE_ROOT; };
+		F6648C00133781D8009BE6B4 /* button_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_7.png; path = ../../Resources/images/button_7.png; sourceTree = SOURCE_ROOT; };
+		F6648C01133781D8009BE6B4 /* button_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_8.png; path = ../../Resources/images/button_8.png; sourceTree = SOURCE_ROOT; };
+		F6648C02133781D8009BE6B4 /* button_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_9.png; path = ../../Resources/images/button_9.png; sourceTree = SOURCE_ROOT; };
+		F66ACBD51495B0CF00DAB789 /* button_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_2.png; sourceTree = "<group>"; };
+		F66AFBFB14610E3200445C2B /* ABstudio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ABstudio.png; sourceTree = "<group>"; };
+		F66AFC6B14611B5100445C2B /* ABStudio-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ABStudio-white.png"; sourceTree = "<group>"; };
+		F66AFCA41461205000445C2B /* wind-chime-long.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "wind-chime-long.wav"; sourceTree = "<group>"; };
+		F66AFCAD146120B600445C2B /* wind-chime-short.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "wind-chime-short.wav"; sourceTree = "<group>"; };
+		F66AFCB61461229200445C2B /* dream-harp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "dream-harp.wav"; sourceTree = "<group>"; };
+		F66AFD2C14612BA000445C2B /* ABStudio-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ABStudio-red.png"; sourceTree = "<group>"; };
+		F66AFD661461304900445C2B /* ABStudio-vivid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ABStudio-vivid.png"; sourceTree = "<group>"; };
+		F6844E3B1333A1DD0010E582 /* graphicUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphicUtil.h; sourceTree = "<group>"; };
+		F6844E3C1333A1DD0010E582 /* graphicUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = graphicUtil.mm; sourceTree = "<group>"; };
+		F6844E461333A20E0010E582 /* ES1Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ES1Renderer.h; sourceTree = "<group>"; };
+		F6844E471333A20E0010E582 /* ES1Renderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ES1Renderer.mm; sourceTree = "<group>"; };
+		F6844E481333A20E0010E582 /* ESRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESRenderer.h; sourceTree = "<group>"; };
+		F6844E491333A20E0010E582 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		F6844E4A1333A20E0010E582 /* EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLView.mm; sourceTree = "<group>"; };
+		F6844E4E1333A2290010E582 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F6844E521333A2370010E582 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F69E78BB143C12AA00AB987D /* button_equal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_equal.png; sourceTree = "<group>"; };
+		F6B610CE1336666700778AD1 /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playButton.png; path = ../../Resources/images/playButton.png; sourceTree = SOURCE_ROOT; };
+		F6B610D01336666D00778AD1 /* helpButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = helpButton.png; path = ../../Resources/images/helpButton.png; sourceTree = SOURCE_ROOT; };
+		F6B61170133674B800778AD1 /* snowMath_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snowMath_icon.png; path = ../../Resources/images/snowMath_icon.png; sourceTree = SOURCE_ROOT; };
+		F6B6117813367A1F00778AD1 /* snowBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snowBall.png; path = ../../Resources/images/snowBall.png; sourceTree = SOURCE_ROOT; };
+		F6B6117E13367B7F00778AD1 /* snowBallf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snowBallf.png; path = ../../Resources/images/snowBallf.png; sourceTree = SOURCE_ROOT; };
+		F6C02E7E1436B73300FCFC19 /* genNumOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genNumOp.h; sourceTree = "<group>"; };
+		F6C02E7F1436B73300FCFC19 /* genNumOp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = genNumOp.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				F6844E4F1333A2290010E582 /* OpenGLES.framework in Frameworks */,
+				F6844E531333A2370010E582 /* QuartzCore.framework in Frameworks */,
+				F653462B14602DB100E2E56B /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F6844E461333A20E0010E582 /* ES1Renderer.h */,
+				F6844E471333A20E0010E582 /* ES1Renderer.mm */,
+				F6844E481333A20E0010E582 /* ESRenderer.h */,
+				F6844E491333A20E0010E582 /* EAGLView.h */,
+				F6844E4A1333A20E0010E582 /* EAGLView.mm */,
+				1D3623240D0F684500981E51 /* SnowMathAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SnowMathAppDelegate.mm */,
+				F617ADC31436217700970DD4 /* SnowBall.h */,
+				F617ADC41436217700970DD4 /* SnowBall.mm */,
+				F6C02E7E1436B73300FCFC19 /* genNumOp.h */,
+				F6C02E7F1436B73300FCFC19 /* genNumOp.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SnowMathGL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SnowMathGL_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.mm */,
+				F6844E3B1333A1DD0010E582 /* graphicUtil.h */,
+				F6844E3C1333A1DD0010E582 /* graphicUtil.mm */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F66ACBD51495B0CF00DAB789 /* button_2.png */,
+				F66AFCB61461229200445C2B /* dream-harp.wav */,
+				F66AFCAD146120B600445C2B /* wind-chime-short.wav */,
+				F66AFCA41461205000445C2B /* wind-chime-long.wav */,
+				F66AFD661461304900445C2B /* ABStudio-vivid.png */,
+				F66AFD2C14612BA000445C2B /* ABStudio-red.png */,
+				F66AFC6B14611B5100445C2B /* ABStudio-white.png */,
+				F66AFBFB14610E3200445C2B /* ABstudio.png */,
+				F65F776F1458119E00E3E39E /* snowballf3.png */,
+				F65F76D81458074400E3E39E /* snowballf2.png */,
+				F6648BF9133781D8009BE6B4 /* button_0.png */,
+				F65F7694145802CE00E3E39E /* button_0t.png */,
+				F65F7695145802CE00E3E39E /* button_0tt.png */,
+				F65F7896145911B100E3E39E /* button_0ttt.png */,
+				F6648BFA133781D8009BE6B4 /* button_1.png */,
+				F65F7696145802CE00E3E39E /* button_1t.png */,
+				F65F7697145802CE00E3E39E /* button_1tt.png */,
+				F65F788814590FE500E3E39E /* button_1ttt.png */,
+				F65F7698145802CE00E3E39E /* button_2t.png */,
+				F65F7699145802CE00E3E39E /* button_2tt.png */,
+				F65F7897145911B100E3E39E /* button_2ttt.png */,
+				F6648BFC133781D8009BE6B4 /* button_3.png */,
+				F65F769A145802CE00E3E39E /* button_3t.png */,
+				F65F769B145802CE00E3E39E /* button_3tt.png */,
+				F65F7898145911B100E3E39E /* button_3ttt.png */,
+				F6648BFD133781D8009BE6B4 /* button_4.png */,
+				F65F769C145802CE00E3E39E /* button_4t.png */,
+				F65F769D145802CE00E3E39E /* button_4tt.png */,
+				F65F7899145911B100E3E39E /* button_4ttt.png */,
+				F6648BFE133781D8009BE6B4 /* button_5.png */,
+				F65F769E145802CE00E3E39E /* button_5t.png */,
+				F65F769F145802CE00E3E39E /* button_5tt.png */,
+				F65F789A145911B100E3E39E /* button_5ttt.png */,
+				F6648BFF133781D8009BE6B4 /* button_6.png */,
+				F65F76A0145802CE00E3E39E /* button_6t.png */,
+				F65F76A1145802CE00E3E39E /* button_6tt.png */,
+				F65F789B145911B100E3E39E /* button_6ttt.png */,
+				F6648C00133781D8009BE6B4 /* button_7.png */,
+				F65F76A2145802CE00E3E39E /* button_7t.png */,
+				F65F76A3145802CE00E3E39E /* button_7tt.png */,
+				F65F789C145911B100E3E39E /* button_7ttt.png */,
+				F6648C01133781D8009BE6B4 /* button_8.png */,
+				F65F76A4145802CE00E3E39E /* button_8t.png */,
+				F65F76A5145802CE00E3E39E /* button_8tt.png */,
+				F65F789D145911B100E3E39E /* button_8ttt.png */,
+				F6648C02133781D8009BE6B4 /* button_9.png */,
+				F65F76A6145802CE00E3E39E /* button_9t.png */,
+				F65F76A7145802CE00E3E39E /* button_9tt.png */,
+				F65F789E145911B100E3E39E /* button_9ttt.png */,
+				F69E78BB143C12AA00AB987D /* button_equal.png */,
+				F664886A1336EB7F009BE6B4 /* numberTexture.png */,
+				F6B6117E13367B7F00778AD1 /* snowBallf.png */,
+				F6B6117813367A1F00778AD1 /* snowBall.png */,
+				F6B61170133674B800778AD1 /* snowMath_icon.png */,
+				F6B610D01336666D00778AD1 /* helpButton.png */,
+				F6B610CE1336666700778AD1 /* playButton.png */,
+				F64AF96514949C1C005F69DC /* snowBackground_1e.png */,
+				F64AF96614949C1C005F69DC /* snowBackground_2e.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* SnowMathGL-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				F6844E4E1333A2290010E582 /* OpenGLES.framework */,
+				F6844E521333A2370010E582 /* QuartzCore.framework */,
+				F653462A14602DB100E2E56B /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SnowMathGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SnowMathGL" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowMathGL;
+			productName = SnowMath;
+			productReference = 1D6058910D05DD3D006BFB54 /* SnowMathGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SnowMathGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SnowMathGL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				F6B610CF1336666700778AD1 /* playButton.png in Resources */,
+				F6B610D11336666D00778AD1 /* helpButton.png in Resources */,
+				F6B61171133674B800778AD1 /* snowMath_icon.png in Resources */,
+				F6B6117913367A1F00778AD1 /* snowBall.png in Resources */,
+				F6B6117F13367B7F00778AD1 /* snowBallf.png in Resources */,
+				F664886B1336EB7F009BE6B4 /* numberTexture.png in Resources */,
+				F6648C03133781D8009BE6B4 /* button_0.png in Resources */,
+				F6648C04133781D8009BE6B4 /* button_1.png in Resources */,
+				F6648C06133781D8009BE6B4 /* button_3.png in Resources */,
+				F6648C07133781D8009BE6B4 /* button_4.png in Resources */,
+				F6648C08133781D8009BE6B4 /* button_5.png in Resources */,
+				F6648C09133781D8009BE6B4 /* button_6.png in Resources */,
+				F6648C0A133781D8009BE6B4 /* button_7.png in Resources */,
+				F6648C0B133781D8009BE6B4 /* button_8.png in Resources */,
+				F6648C0C133781D8009BE6B4 /* button_9.png in Resources */,
+				F69E78BC143C12AA00AB987D /* button_equal.png in Resources */,
+				F65F76A8145802CE00E3E39E /* button_0t.png in Resources */,
+				F65F76A9145802CE00E3E39E /* button_0tt.png in Resources */,
+				F65F76AA145802CE00E3E39E /* button_1t.png in Resources */,
+				F65F76AB145802CE00E3E39E /* button_1tt.png in Resources */,
+				F65F76AC145802CE00E3E39E /* button_2t.png in Resources */,
+				F65F76AD145802CE00E3E39E /* button_2tt.png in Resources */,
+				F65F76AE145802CE00E3E39E /* button_3t.png in Resources */,
+				F65F76AF145802CE00E3E39E /* button_3tt.png in Resources */,
+				F65F76B0145802CE00E3E39E /* button_4t.png in Resources */,
+				F65F76B1145802CE00E3E39E /* button_4tt.png in Resources */,
+				F65F76B2145802CE00E3E39E /* button_5t.png in Resources */,
+				F65F76B3145802CE00E3E39E /* button_5tt.png in Resources */,
+				F65F76B4145802CE00E3E39E /* button_6t.png in Resources */,
+				F65F76B5145802CE00E3E39E /* button_6tt.png in Resources */,
+				F65F76B6145802CE00E3E39E /* button_7t.png in Resources */,
+				F65F76B7145802CE00E3E39E /* button_7tt.png in Resources */,
+				F65F76B8145802CE00E3E39E /* button_8t.png in Resources */,
+				F65F76B9145802CE00E3E39E /* button_8tt.png in Resources */,
+				F65F76BA145802CE00E3E39E /* button_9t.png in Resources */,
+				F65F76BB145802CE00E3E39E /* button_9tt.png in Resources */,
+				F65F76D91458074400E3E39E /* snowballf2.png in Resources */,
+				F65F77701458119E00E3E39E /* snowballf3.png in Resources */,
+				F65F788914590FE500E3E39E /* button_1ttt.png in Resources */,
+				F65F789F145911B100E3E39E /* button_0ttt.png in Resources */,
+				F65F78A0145911B100E3E39E /* button_2ttt.png in Resources */,
+				F65F78A1145911B100E3E39E /* button_3ttt.png in Resources */,
+				F65F78A2145911B100E3E39E /* button_4ttt.png in Resources */,
+				F65F78A3145911B100E3E39E /* button_5ttt.png in Resources */,
+				F65F78A4145911B100E3E39E /* button_6ttt.png in Resources */,
+				F65F78A5145911B100E3E39E /* button_7ttt.png in Resources */,
+				F65F78A6145911B100E3E39E /* button_8ttt.png in Resources */,
+				F65F78A7145911B100E3E39E /* button_9ttt.png in Resources */,
+				F66AFBFC14610E3200445C2B /* ABstudio.png in Resources */,
+				F66AFC6C14611B5100445C2B /* ABStudio-white.png in Resources */,
+				F66AFCA51461205000445C2B /* wind-chime-long.wav in Resources */,
+				F66AFCAE146120B600445C2B /* wind-chime-short.wav in Resources */,
+				F66AFCB71461229200445C2B /* dream-harp.wav in Resources */,
+				F66AFD2D14612BA000445C2B /* ABStudio-red.png in Resources */,
+				F66AFD671461304900445C2B /* ABStudio-vivid.png in Resources */,
+				F64AF96714949C1C005F69DC /* snowBackground_1e.png in Resources */,
+				F64AF96814949C1C005F69DC /* snowBackground_2e.png in Resources */,
+				F66ACBD61495B0CF00DAB789 /* button_2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.mm in Sources */,
+				1D3623260D0F684500981E51 /* SnowMathAppDelegate.mm in Sources */,
+				F6844E3D1333A1DD0010E582 /* graphicUtil.mm in Sources */,
+				F6844E4B1333A20E0010E582 /* ES1Renderer.mm in Sources */,
+				F6844E4C1333A20E0010E582 /* EAGLView.mm in Sources */,
+				F617ADC51436217700970DD4 /* SnowBall.mm in Sources */,
+				F6C02E801436B73300FCFC19 /* genNumOp.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SnowMathGL_Prefix.pch;
+				INFOPLIST_FILE = "SnowMathGL-Info.plist";
+				PRODUCT_NAME = SnowMathGL;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SnowMathGL_Prefix.pch;
+				INFOPLIST_FILE = "SnowMathGL-Info.plist";
+				PRODUCT_NAME = SnowMathGL;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SnowMathGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SnowMathGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
